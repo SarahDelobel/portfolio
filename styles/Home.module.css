@@ -1,0 +1,75 @@
+.firstTitle {
+  animation: titleAnimation 9s infinite;
+  transition: background-color 3s;
+  background-image: linear-gradient(to right, #F06292,#5c1c91, #F06292, #5c1c91);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300%;
+  background-position: -100%;
+}
+
+.secondTitle {
+  animation: titleAnimation 9s infinite;
+  font-size: 72px;
+  background-image: linear-gradient(to right, #90CAF9,#1565C0, #90CAF9, #1565C0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300%;
+  background-position: -100%;  
+}
+
+.thirdTitle {
+  animation: titleAnimation 9s infinite;
+  font-size: 72px;
+  background-image: linear-gradient(to right, #FFF176,#EF6C00, #FFF176, #EF6C00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300%;
+  background-position: -100%;  
+}
+
+.fourthTitle {
+  animation: titleAnimation 9s infinite;
+  font-size: 72px;
+  background-image: linear-gradient(to right, #3FFFB2,#257a48, #3FFFB2, #257a48);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300%;
+  background-position: -100%;  
+  
+}
+
+.fifthTitle {
+  animation: titleAnimation 9s infinite;
+  font-size: 72px;
+  background-image: linear-gradient(to right, hsl(0, 66%, 49%),hsl(357, 76%, 20%), hsl(0, 66%, 49%), hsl(357, 76%, 20%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300%;
+  background-position: -100%;  
+}
+
+.sixedTitle {
+  animation: titleAnimation 9s infinite;
+  font-size: 72px;
+  background-image: linear-gradient(to right,rgb(255, 255, 255), #999,rgb(255, 255, 255),#999);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300%;
+  background-position: -100%;  
+}
+
+@keyframes titleAnimation {
+  0%{
+    background-position: 0%; 
+  }
+
+  50%{
+      background-position: 100%; 
+    }
+
+  100%{
+    background-position: 0%; 
+  }
+
+}
