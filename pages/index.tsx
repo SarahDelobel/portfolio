@@ -122,7 +122,7 @@ const Home: NextPage = () => {
           <Heading pt={'150px'} mb={'30px'} className={styles.firstTitle} as='h2' fontSize={'5xl'}>LE GOBLET</Heading>
         </Center>
         <Flex alignItems={'center'} justifyContent={'center'}>
-          <Link color='white' href="https://sarahdelobel.github.io/portfolio/">Cliquez ici pour voir le site</Link>
+          <Link color='white' href="https://sarahdelobel.github.io/le_goblet/">Cliquez ici pour voir le site</Link>
         </Flex>
         <SimpleGrid columns={[1,1,1]}>
           <Flex justifyContent={'center'} mt='50px'>
