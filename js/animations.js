@@ -1,6 +1,6 @@
 var myFullpage = new fullpage('#fullpage', {
     lockAnchors: false,
-    anchors:[],
+    anchors:['app-hero-banner', 'secondPage'],
     navigation: true,
     navigationPosition: 'right',
     navigationTooltips: [],
