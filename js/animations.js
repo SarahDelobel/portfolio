@@ -1,6 +1,6 @@
 var myFullpage = new fullpage('#fullpage', {
     lockAnchors: false,
-    anchors:['app-hero-banner', 'app-about', 'app-soft-skills','app-hard-skills'],
+    anchors:[],
     navigation: true,
     navigationPosition: 'right',
     navigationTooltips: [],
