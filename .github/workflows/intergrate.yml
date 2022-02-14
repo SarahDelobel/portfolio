@@ -28,6 +28,9 @@ jobs:
     - name: Installing my packages
       run: npm ci
 
+    - name: build
+      run: npm run build
+
     - name: Build my App  
       run: npm run start
 
