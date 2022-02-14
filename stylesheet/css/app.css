@@ -1,0 +1,406 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.f-inter {
+  font-family: "Inter", sans-serif;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  background: #FFF;
+}
+
+.section {
+  position: relative;
+  background-color: #171923;
+  color: #FFF;
+  text-align: center;
+}
+
+#app-hero-banner-first-box-title {
+  font-weight: 900;
+  animation: gradient-text-animation 9s infinite;
+  font-size: 72px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300%;
+  background-position: -100%;
+  background-image: linear-gradient(to right, #F06292, #5c1c91, #F06292, #5c1c91);
+}
+
+#app-hero-banner-second-box-title {
+  font-weight: 900;
+  animation: gradient-text-animation 9s infinite;
+  font-size: 72px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300%;
+  background-position: -100%;
+  background-image: linear-gradient(to right, #90CAF9, #1565C0, #90CAF9, #1565C0);
+}
+
+#app-hero-banner-third-box-title {
+  font-weight: 900;
+  animation: gradient-text-animation 9s infinite;
+  font-size: 72px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300%;
+  background-position: -100%;
+  background-image: linear-gradient(to right, #FFF176, #EF6C00, #FFF176, #EF6C00);
+}
+
+#app-about-title {
+  font-weight: 900;
+  animation: gradient-text-animation 9s infinite;
+  font-size: 72px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300%;
+  background-position: -100%;
+  background-image: linear-gradient(to right, #F06292, #5c1c91, #F06292, #5c1c91);
+}
+
+#app-soft-skills-title {
+  font-weight: 900;
+  animation: gradient-text-animation 9s infinite;
+  font-size: 72px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300%;
+  background-position: -100%;
+  background-image: linear-gradient(to right, #90CAF9, #1565C0, #90CAF9, #1565C0);
+  font-size: 7rem;
+}
+
+#app-about-text {
+  font-size: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  text-align: left;
+}
+
+#app-about-picture {
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+#app-about-picture-img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+#app-soft-skills-communication {
+  font-weight: 900;
+  animation: gradient-text-animation 9s infinite;
+  font-size: 72px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300%;
+  background-position: -100%;
+  background-image: linear-gradient(to right, white, #999, white, #999);
+}
+
+#app-soft-skills-curieuse {
+  font-weight: 900;
+  animation: gradient-text-animation 9s infinite;
+  font-size: 72px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300%;
+  background-position: -100%;
+  background-image: linear-gradient(to right, #3FFFB2, #257a48, #3FFFB2, #257a48);
+}
+
+#app-soft-skills-adaptabilite {
+  font-weight: 900;
+  animation: gradient-text-animation 9s infinite;
+  font-size: 72px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300%;
+  background-position: -100%;
+  background-image: linear-gradient(to right, #FFF176, #EF6C00, #FFF176, #EF6C00);
+}
+
+#app-soft-skills-equipe {
+  font-weight: 900;
+  animation: gradient-text-animation 9s infinite;
+  font-size: 72px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300%;
+  background-position: -100%;
+  background-image: linear-gradient(to right, #F06292, #5c1c91, #F06292, #5c1c91);
+}
+
+#app-soft-skills-box {
+  display: grid;
+}
+
+#app-hard-skills-title {
+  font-weight: 900;
+  animation: gradient-text-animation 9s infinite;
+  font-size: 72px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300%;
+  background-position: -100%;
+  background-image: linear-gradient(to right, #cf2a2a, #5a0c10, #cf2a2a, #5a0c10);
+}
+
+#app-hard-skills-box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.app-hard-box-container img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.app-hard-box-container {
+  align-items: center;
+  width: 150px;
+}
+
+#app-projects-title {
+  font-weight: 900;
+  animation: gradient-text-animation 9s infinite;
+  font-size: 72px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300%;
+  background-position: -100%;
+  background-image: linear-gradient(to right, #FFF176, #EF6C00, #FFF176, #EF6C00);
+}
+
+#app-projects-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#app-projects-box-shiba-title {
+  font-weight: 900;
+  animation: gradient-text-animation 9s infinite;
+  font-size: 72px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300%;
+  background-position: -100%;
+  background-image: linear-gradient(to right, #cf2a2a, #5a0c10, #cf2a2a, #5a0c10);
+}
+
+#app-projects-box-goblet-title {
+  font-weight: 900;
+  animation: gradient-text-animation 9s infinite;
+  font-size: 72px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300%;
+  background-position: -100%;
+  background-image: linear-gradient(to right, #3FFFB2, #257a48, #3FFFB2, #257a48);
+}
+
+#app-projects-box-shiba-title:hover,
+#app-projects-box-goblet-title:hover {
+  transition-duration: 1s;
+  transform: scale(1.2);
+  text-decoration: underline;
+}
+
+#app-projects-box-shiba-title,
+#app-projects-box-goblet-title {
+  transition-duration: 1s;
+}
+
+#app-project-box-goblet-img img,
+#app-project-box-shiba-img img {
+  width: 100%;
+}
+
+#app-project-box-goblet-img,
+#app-project-box-shiba-img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+@media (min-width: 320px) {
+  #app-hero-banner-first-box-title,
+#app-hero-banner-second-box-title,
+#app-hero-banner-third-box-title {
+    font-size: 2rem;
+  }
+
+  #app-about-title {
+    font-size: 4rem;
+  }
+
+  #app-about-text {
+    width: 90%;
+  }
+
+  #app-about-picture {
+    width: 30%;
+  }
+
+  #app-soft-skills-title {
+    font-size: 3rem;
+  }
+
+  #app-soft-skills-communication,
+#app-soft-skills-curieuse,
+#app-soft-skills-adaptabilite,
+#app-soft-skills-equipe {
+    font-size: 2rem;
+  }
+
+  #app-hard-skills-title {
+    font-size: 2rem;
+  }
+
+  .app-hard-box-container {
+    width: 50px;
+  }
+
+  #app-projects-title {
+    font-size: 2rem;
+  }
+
+  #app-project-box-goblet-img,
+#app-project-box-shiba-img {
+    width: 200px;
+  }
+
+  #app-projects-box-shiba-title,
+#app-projects-box-goblet-title {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 576px) {
+  #app-hero-banner-first-box-title,
+#app-hero-banner-second-box-title,
+#app-hero-banner-third-box-title {
+    font-size: 2rem;
+  }
+
+  #app-soft-skills-box {
+    grid-template-columns: 1fr;
+  }
+
+  .app-hard-box-container {
+    width: 100px;
+  }
+
+  #app-soft-skills-box {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #app-projects-title {
+    font-size: 2rem;
+  }
+
+  #app-project-box-goblet-img,
+#app-project-box-shiba-img {
+    width: 150px;
+  }
+
+  #app-projects-box-shiba-title,
+#app-projects-box-goblet-title {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  #app-hero-banner-first-box-title,
+#app-hero-banner-second-box-title,
+#app-hero-banner-third-box-title {
+    font-size: 3rem;
+  }
+
+  #app-soft-skills-communication,
+#app-soft-skills-curieuse,
+#app-soft-skills-adaptabilite,
+#app-soft-skills-equipe {
+    font-size: 3rem;
+  }
+
+  #app-soft-skills-box {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #app-projects-title {
+    font-size: 3rem;
+  }
+
+  #app-project-box-goblet-img,
+#app-project-box-shiba-img {
+    width: 200px;
+  }
+
+  #app-projects-box-shiba-title,
+#app-projects-box-goblet-title {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1200px) {
+  #app-hero-banner-first-box-title,
+#app-hero-banner-second-box-title,
+#app-hero-banner-third-box-title {
+    font-size: 8rem;
+  }
+
+  #app-about-title {
+    font-size: 5rem;
+  }
+
+  #app-about-text {
+    width: 40%;
+  }
+
+  #app-about-picture {
+    width: 15%;
+  }
+
+  #app-soft-skills-title {
+    font-size: 5rem;
+  }
+
+  #app-soft-skills-communication,
+#app-soft-skills-curieuse,
+#app-soft-skills-adaptabilite,
+#app-soft-skills-equipe {
+    font-size: 4rem;
+  }
+
+  #app-hard-skills-title {
+    font-size: 5rem;
+  }
+
+  #app-projects-title {
+    font-size: 5rem;
+  }
+
+  #app-projects-box-shiba-title,
+#app-projects-box-goblet-title {
+    font-size: 3rem;
+  }
+
+  #app-project-box-goblet-img,
+#app-project-box-shiba-img {
+    width: 300px;
+  }
+}
+@keyframes gradient-text-animation {
+  0% {
+    background-position: 0;
+  }
+  50% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */

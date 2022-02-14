@@ -1,0 +1,295 @@
+@import "theme/theme"
+
+.section
+  position         : relative
+  background-color : $dark-1
+  color            : $white-1
+  text-align       : center
+
+@mixin gradient-text
+  @include w-900
+  animation                : gradient-text-animation 9s infinite
+  font-size                : 72px
+  -webkit-background-clip  : text
+  -webkit-text-fill-color  : transparent
+  background-size          : 300%
+  background-position      : -100%
+
+@mixin gradient-text-pink
+  background-image: linear-gradient(to right, #F06292,#5c1c91, #F06292, #5c1c91)
+
+@mixin gradient-text-blue
+  background-image: linear-gradient(to right, #90CAF9,#1565C0, #90CAF9, #1565C0)
+
+@mixin gradient-text-yellow
+  background-image: linear-gradient(to right, #FFF176,#EF6C00, #FFF176, #EF6C00)
+
+@mixin gradient-text-green
+  background-image: linear-gradient(to right, #3FFFB2,#257a48, #3FFFB2, #257a48)
+
+@mixin gradient-text-red
+  background-image: linear-gradient(to right, hsl(0, 66%, 49%),hsl(357, 76%, 20%), hsl(0, 66%, 49%), hsl(357, 76%, 20%))
+
+@mixin gradient-text-white
+  background-image: linear-gradient(to right,rgb(255, 255, 255), #999,rgb(255, 255, 255),#999)
+
+
+#app-hero-banner-first-box-title
+  @include gradient-text
+  @include gradient-text-pink
+
+#app-hero-banner-second-box-title
+  @include gradient-text
+  @include gradient-text-blue
+
+#app-hero-banner-third-box-title
+  @include gradient-text
+  @include gradient-text-yellow
+
+#app-about-title
+  @include gradient-text
+  @include gradient-text-pink
+
+#app-soft-skills-title
+  @include gradient-text
+  @include gradient-text-blue
+  @include f-size-7em
+
+
+#app-about-text
+  @include f-size-1em
+  margin-left: auto
+  margin-right: auto
+  width: 40%
+  text-align: left
+
+
+#app-about-picture
+  margin-left: auto
+  margin-right: auto
+  width: 10%
+
+#app-about-picture-img
+  border-radius: 50%
+  width: 100%
+
+
+
+#app-soft-skills-communication
+  @include gradient-text
+  @include gradient-text-white
+
+#app-soft-skills-curieuse
+  @include gradient-text
+  @include gradient-text-green
+
+#app-soft-skills-adaptabilite
+  @include gradient-text
+  @include gradient-text-yellow
+
+#app-soft-skills-equipe
+  @include gradient-text
+  @include gradient-text-pink
+
+#app-soft-skills-box
+  display: grid
+
+
+#app-hard-skills-title
+  @include gradient-text
+  @include gradient-text-red
+
+#app-hard-skills-box
+  display: flex
+  justify-content: space-around
+  flex-wrap: wrap
+
+.app-hard-box-container img
+  border-radius: 50%
+  width: 100%
+
+.app-hard-box-container
+  align-items: center
+  width: 150px
+
+
+#app-projects-title
+  @include gradient-text
+  @include gradient-text-yellow
+
+#app-projects-box
+  display: grid
+  grid-template-columns: 1fr 1fr
+
+#app-projects-box-shiba-title
+  @include gradient-text
+  @include gradient-text-red
+
+#app-projects-box-goblet-title
+  @include gradient-text
+  @include gradient-text-green
+
+
+#app-projects-box-shiba-title:hover,
+#app-projects-box-goblet-title:hover
+  transition-duration: 1s
+  transform: scale(1.2)
+  text-decoration: underline
+
+#app-projects-box-shiba-title,
+#app-projects-box-goblet-title
+  transition-duration: 1s
+
+#app-project-box-goblet-img img,
+#app-project-box-shiba-img img
+  width: 100%
+
+#app-project-box-goblet-img,
+#app-project-box-shiba-img
+    margin-left: auto
+    margin-right: auto
+    width: 300px
+
+
+@media (min-width: 320px)
+
+  #app-hero-banner-first-box-title,
+  #app-hero-banner-second-box-title,
+  #app-hero-banner-third-box-title
+    @include f-size-2em
+
+  #app-about-title
+    @include f-size-4em
+
+  #app-about-text
+    width: 90%
+
+  #app-about-picture
+    width: 30%
+
+  #app-soft-skills-title
+    @include f-size-3em
+
+  #app-soft-skills-communication,
+  #app-soft-skills-curieuse,
+  #app-soft-skills-adaptabilite,
+  #app-soft-skills-equipe
+    @include f-size-2em
+
+  #app-hard-skills-title
+    @include f-size-2em
+  .app-hard-box-container
+    width: 50px
+
+  #app-projects-title
+    @include f-size-2em
+
+  #app-project-box-goblet-img,
+  #app-project-box-shiba-img
+    width: 200px
+
+  #app-projects-box-shiba-title,
+  #app-projects-box-goblet-title
+    @include f-size-2em
+
+@media (min-width: 576px)
+
+  #app-hero-banner-first-box-title,
+  #app-hero-banner-second-box-title,
+  #app-hero-banner-third-box-title
+    @include f-size-2em
+
+  #app-soft-skills-box
+    grid-template-columns: 1fr
+
+  .app-hard-box-container
+    width: 100px
+
+  #app-soft-skills-box
+    grid-template-columns: 1fr 1fr
+
+  #app-projects-title
+    @include f-size-2em
+
+  #app-project-box-goblet-img,
+  #app-project-box-shiba-img
+    width: 150px
+
+  #app-projects-box-shiba-title,
+  #app-projects-box-goblet-title
+    @include f-size-2em
+
+@media (min-width: 768px)
+
+  #app-hero-banner-first-box-title,
+  #app-hero-banner-second-box-title,
+  #app-hero-banner-third-box-title
+    @include f-size-3em
+
+  #app-soft-skills-communication,
+  #app-soft-skills-curieuse,
+  #app-soft-skills-adaptabilite,
+  #app-soft-skills-equipe
+    @include f-size-3em
+
+  #app-soft-skills-box
+    grid-template-columns: 1fr 1fr
+
+  #app-projects-title
+    @include f-size-3em
+  #app-project-box-goblet-img,
+  #app-project-box-shiba-img
+    width: 200px
+
+  #app-projects-box-shiba-title,
+  #app-projects-box-goblet-title
+    @include f-size-2em
+
+
+@media (min-width: 1200px)
+
+  #app-hero-banner-first-box-title,
+  #app-hero-banner-second-box-title,
+  #app-hero-banner-third-box-title
+    @include f-size-8em
+
+  #app-about-title
+    @include f-size-5em
+
+  #app-about-text
+    width: 40%
+
+  #app-about-picture
+    width: 15%
+
+  #app-soft-skills-title
+    @include f-size-5em
+
+  #app-soft-skills-communication,
+  #app-soft-skills-curieuse,
+  #app-soft-skills-adaptabilite,
+  #app-soft-skills-equipe
+    @include f-size-4em
+
+  #app-hard-skills-title
+    @include f-size-5em
+
+
+  #app-projects-title
+    @include f-size-5em
+
+  #app-projects-box-shiba-title,
+  #app-projects-box-goblet-title
+    @include f-size-3em
+
+  #app-project-box-goblet-img,
+  #app-project-box-shiba-img
+    width: 300px
+
+@keyframes gradient-text-animation
+  0%
+    background-position: 0
+  50%
+    background-position: 100%
+  100%
+    background-position: 0
